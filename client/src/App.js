@@ -42,7 +42,7 @@ function App() {
         <input type='number' value={attr1} onChange={(e) => setAttr1(e.target.value)} />
         <input type='number' value={attr2} onChange={(e) => setAttr2(e.target.value)} />
         <input type='number' value={attr3} onChange={(e) => setAttr3(e.target.value)} />
-        <button onClick={addChar}>Add Character</button>
+        <button type="button" onClick={addChar}>Add Character</button>
       </form>
     </div>
   );
